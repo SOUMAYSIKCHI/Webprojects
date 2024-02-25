@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+/* boiler plate code */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+/* nav bar styling */
+nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3em;
+}
+
+.nav-part1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    font-size: 15px;
+}
+
+.nav-part1 .ri-menu-3-fill, h3 {
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+.nav-part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-part2 h1 {
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nav-part2 img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.nav-part3 button {
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 2px solid black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#btn2 {
+    border: none !important;
+    background-color: orangered;
+    color: aliceblue;
+}
+
+.middle-section h1{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 8rem;
+    width: 100%;
+    text-align: center;
+}
+
+.middle-section img{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    object-fit:cover;
+    object-position: top;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+      
+#img2{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+
+#img3{
+        transform: translate(-50%,-50%) rotate(-20deg);
+    }
+#img4{
+        transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#footerh5{
+    position: absolute;
+    font-size: 20px;
+    bottom: 5%;
+    left: 5%;
+}
+
+.footer-right
+{
+    position: absolute;
+    font-size: 20px;
+    bottom: 5%;
+    right: 5%;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 0.375rem;
+    color: orangered;
+
+}
+
